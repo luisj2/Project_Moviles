@@ -1,0 +1,7 @@
+{
+  "name": "Moviles_LuisJesus_Cristian",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
