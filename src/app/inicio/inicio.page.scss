@@ -1,0 +1,12 @@
+.logo {
+    width: 350px;
+    height: 175px;
+    margin: auto; /* Centra horizontalmente en relación con el contenedor */
+}
+.Div1{
+    /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+    margin: auto;
+}
