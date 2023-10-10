@@ -11,12 +11,45 @@
     <ion-button routerLink="/inicio">
       <ion-icon name="arrow-back-outline"></ion-icon>
     </ion-button>
-
+    
+    <div style="display: flex;" id="elemento1">
+      <div style="margin-right: 10px;"><ion-checkbox id="checkbox1" [(ngModel)]="isChecked1" (ionChange)=" mostrarToast()">Añadir al carrito</ion-checkbox>
+      </div>
+      <div style="margin-right: 10px;"><ion-img class="imgProcesador" src="/assets/I5Troll.png" ></ion-img></div>
+      
+      <div style="margin-right: 35px;"> <h2>Troll Core I5</h2></div>
+      
+      <div style="margin-right: 35px;" > <p>un procesador tecnológicamente travieso que convierte las tareas informáticas <br> en una montaña rusa de sorpresas y humor. ¡Prepárate para resultados inesperados <br>y  risas en lugar de eficiencia!</p></div>
+      
+      <div> <p>200 Trollares</p> </div>
+    </div>   
+<br>
+    <div style="display: flex;" id="elemento1">
+      <div style="margin-right: 10px;"><ion-checkbox  id="checkbox2"[(ngModel)]="isChecked2" (ionChange)=" mostrarToast1()">Añadir al carrito</ion-checkbox>
+      </div>
+      <div style="margin-right: 10px;"><ion-img class="imgProcesador" src="/assets/NvidiaTroll.png" ></ion-img></div>
+      
+      <div style="margin-right: 35px;"> <h2> Gráfica Troll</h2></div>
+      
+      <div style="margin-right: 35px;" > <p>diseñada para desafiar todas tus expectativas visuales. Con un rendimiento tan <br>sorprendente que te hará cuestionar la realidad, esta tarjeta está lista para hacerte <br> reír mientras desafía  sentido común en juegos y aplicaciones. ¡Prepárate para una <br> experiencia visual completamente única!</p></div>
+      
+      <div> <p>250 Trollares</p> </div>
+    </div>   
+    <br>
+    <div style="display: flex;" id="elemento1">
+      <div style="margin-right: 10px;"><ion-checkbox id="checkbox3" [(ngModel)]="isChecked3" (ionChange)=" mostrarToast2()">Añadir al carrito</ion-checkbox>
+      </div>
+      <div style="margin-right: 10px;"><ion-img class="imgProcesador" src="/assets/MonitorTroll.png" ></ion-img></div>
+      
+      <div style="margin-right: 35px;"> <h2>Monitor Troll</h2></div>
+      
+      <div style="margin-right: 35px;" > <p>la pantalla que te desafiará a ver el mundo de una manera completamente nueva. Con <br>colores que harán que tu cabeza dé vueltas y resoluciones tan altas que pensarás que <br>estás en otro universo, este monitor te mantendrá adivinando qué es real y qué no. <br> ¡Una experiencia visual que te hará cuestionar la cordura en cada encendido!</p></div>
+      
+      <div> <p>175 Trollares</p> </div>
+    </div>   
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Piezas</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Piezas page"></app-explore-container>
 </ion-content>
