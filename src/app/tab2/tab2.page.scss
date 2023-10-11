@@ -8,3 +8,25 @@
 .categorias{
     color: rgb(39, 39, 158);
 }
+
+.avatar{
+  width: 25%; /* Ajusta el ancho de la imagen al tamaño del avatar */
+  height: 25%; /* Ajusta la altura de la imagen al tamaño del avatar */
+  object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+}
+/* En tu archivo de estilos CSS */
+/* En tu archivo de estilos CSS */
+  /* En tu archivo de estilos CSS */
+.proveedor-item {
+  display: flex; /* Aplica flexbox para los elementos de proveedor-item */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.avatar {
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.divPrincipal{
+  display: flex;
+  flex: 1;
+}
+  

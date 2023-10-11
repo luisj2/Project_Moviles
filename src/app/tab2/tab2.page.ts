@@ -7,12 +7,23 @@ import { Component } from '@angular/core';
   template: `
     <h2>Lista de proveedores del producto</h2>
     <ul>
-      <li *ngFor="let nombre of nombres">{{ nombre }}</li>
+      <li *ngFor="let proveedor of miArray">
+        {{ proveedor.texto }} <!-- Muestra el texto del proveedor -->
+        <img [src]="proveedor.avatar" alt="Proveedor"> <!-- Muestra la imagen del proveedor -->
+      </li>
     </ul>
   `,
 })
 export class Tab2Page {
-  nombres: string[] = [''];
+  miArray: { texto: string, avatar: string }[] = [
+    { texto: "Acer", avatar:'/assets/LogoAcerBueno.png' },
+    { texto: "Tempest", avatar:'/assets/tempest_logo.jfif' },
+    { texto: "Asus", avatar:'/assets/logoAsus.jfif' },
+
+   
+  ];
+  
+
 
   constructor() {}
 }
