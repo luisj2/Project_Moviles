@@ -5,8 +5,18 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <p>Somos mucho más que vendedores de partes de ordenador, somos los mejores del medio. Nos encargaremos personalmente de cualquiera de sus necesidades tecnológicas: partes, built-in computers... Con nosotros, su equipo estará en las mejores condiciones posibles y le aseguramos que, si fuese capaz de ello, su ordenador saltaría de la alegría al vernos entrar por la puerta. Confíe en nosotros, confíe en TrollTech.</p>
+ 
+  <ion-button routerLink="/inicio">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </ion-button>
 
+  <p>Somos mucho más que vendedores de partes de ordenador, somos los mejores del medio. Nos encargaremos personalmente de cualquiera de sus necesidades tecnológicas: partes, built-in computers... Con nosotros, su equipo estará en las mejores condiciones posibles y le aseguramos que, si fuese capaz de ello, su ordenador saltaría de la alegría al vernos entrar por la puerta. Confíe en nosotros, confíe en TrollTech.</p>
+  <ul>
+    <li>Nombre del fundador: {{nombreFundador}}</li>
+    <li>Nombre de la empresa: {{nombreEmpresa}}</li>
+    <li>Fecha de fundacion: {{fechaFundacion}}</li>
+    <li>Ubicación de la sede: {{sede}}</li>
+  </ul>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Sobre Nosotros</ion-title>
