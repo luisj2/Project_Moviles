@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss'],
   template: `
-    <h2>Sitios donde nos ubicamos</h2>
+    <h2>Lista de proveedores del producto</h2>
     <ul>
       <li *ngFor="let nombre of nombres">{{ nombre }}</li>
     </ul>
