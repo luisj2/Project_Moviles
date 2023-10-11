@@ -2,6 +2,7 @@
     width: 350px;
     height: 175px;
     margin: auto; /* Centra horizontalmente en relación con el contenedor */
+    max-width: fit-content;
 }
 .titulo {
     display: block;
