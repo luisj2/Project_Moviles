@@ -1,8 +1,9 @@
-.imgProcesador{
-    width: 350px;
-    height: 175px;
-    margin: auto;
+.imgProcesador {
+  width: 50%; /* El ancho será la mitad del contenedor */
+  height: auto; /* La altura se ajustará proporcionalmente al ancho */
+  margin: 0 auto; /* El margen horizontal se ajusta automáticamente */
 }
+
 #elemento1{
     isplay: flex;
   align-items: center;

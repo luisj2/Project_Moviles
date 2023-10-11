@@ -22,14 +22,19 @@
       <ion-label class="categorias">FABRICANTE</ion-label>
       <ion-label class="categorias">CATEGORIA</ion-label>
       <ion-label class="categorias">PRODUCTO</ion-label>
+
     </ion-item>
 
     <ion-item>
       <ion-label>AMD</ion-label>
       <ion-label>Procesador</ion-label>
-      <ion-label>AMD Ryzen 5 5600G 4.40GHz</ion-label>
+      <ion-label><a href="https://www.profesionalreview.com/2021/08/03/amd-ryzen-5-5600g-review/"> Ryzen 5 5600G 4.40GHz</a></ion-label>
     </ion-item>
   </ion-list>
+  <h2>Lista de Nombres</h2>
+  <ul>
+    <li *ngFor="let nombre of nombres">{{ nombre }}</li>
+  </ul>
 
   <ion-header collapse="condense">
     <ion-toolbar>
